@@ -1,3 +1,5 @@
+require "input_css/version"
+
 # Modifies the 'options' of the tag helper so that, by default,
 # there's a CSS class attribute based on the type attribute
 # (Note: only applies to input fields)
