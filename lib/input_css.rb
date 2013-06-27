@@ -31,7 +31,6 @@ module ActionView
 
     class InstanceTag
       alias_method :tag_without_error_wrapping, :tag_with_default_css
-      options
     end if defined?(InstanceTag) # Rails 3 compat
   end
 end
